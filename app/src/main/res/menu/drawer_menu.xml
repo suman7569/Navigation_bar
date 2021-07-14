@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="General">
+       <menu>
+           <item
+               android:title="Home"
+               android:id="@+id/homeid"
+               android:icon="@drawable/home">
+           </item>
+           <item
+               android:title="Photo"
+               android:id="@+id/photoid"
+               android:icon="@drawable/photo">
+           </item>
+       </menu>
+   </item>
+
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:title="FAQs"
+                android:id="@+id/faqs"
+                android:icon="@drawable/settings">
+            </item>
+            <item
+                android:title="Contact us"
+                android:id="@+id/contactusid"
+                android:icon="@drawable/send">
+            </item>
+            <item
+                android:title="About us"
+                android:id="@+id/aboutusid"
+                android:icon="@drawable/star_rate">
+            </item>
+            <item
+                android:title="Help"
+                android:id="@+id/helpid"
+                android:icon="@drawable/star_rate">
+            </item>
+        </menu>
+
+    </item>
+
+    <item
+        android:title="Ask"
+        android:id="@+id/askid"
+        android:icon="@drawable/star_rate">
+    </item>
+    <item
+        android:title="Share"
+        android:id="@+id/shareid"
+        android:icon="@drawable/share">
+    </item>
+
+</menu>
